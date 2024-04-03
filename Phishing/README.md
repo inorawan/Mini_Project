@@ -10,6 +10,14 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 
 ![implementation](Images/Final.png)
 
+* User initiates the process by requesting a web page from a web server.
+* Client (User's Browser) retrieves and displays the web page content.
+* Extract all links and store them in a file.
+* 
+
+
+
+
 # Output
 ![implementation](Images/mozart.png)
 ![implementation](Images/result.png)
