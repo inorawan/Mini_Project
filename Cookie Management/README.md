@@ -14,6 +14,6 @@ This diagram represent the approach of the project.
 ![Cookie_flow_diagram](Images/Cookie_flow_diagram.png)
 
 
-It asks users if they want to add the website to preferred list in the browser. 
-We use PyQt5 python library to develop a simple browser and added the cookie management in it.
-You can this [file](main.py)
+It asks users if they want to add the website to their preferred list in the browser. 
+We used [Mozart browser](https://github.com/htoukour/Mozart.git) which used the PyQt5 python library to develop a simple browser. In this browser, added cookie management to it.
+In this folder, you can see [main](main.py) which is modified of the Mozart browser. To add cookie management feature.
