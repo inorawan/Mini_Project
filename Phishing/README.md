@@ -8,7 +8,7 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 
 # Implementation
 
-![implementation](Images/final.png)
+![implementation](Images/Final.png)
 
 # Output
 ![implementation](Images/mozart.png)
