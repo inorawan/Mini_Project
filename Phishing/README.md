@@ -26,6 +26,10 @@ To install the project dependencies and set up the environment, follow these ste
    git clone [https://github.com/htoukour/Mozart.git](https://github.com/htoukour/Mozart.git)
    pip3 install -r requirements.txt
 2. Replace Mozart.py file with [mozart.py](mozart.py)
+3. 
+'''bash
+   python3 mozart.py
+   
 
 # Output
 ![implementation](Images/mozart.png)
