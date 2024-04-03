@@ -21,3 +21,6 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 
 # Implementation
 - Host two servers named serverA and serverB on the same system, each running on different ports.
+- Use the provided scripts to create [serverA](serverA.py) and [serverB](serverB.py).
+- Use the provided script [Client](Client.py) to create the client application.
+- 
