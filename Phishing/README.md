@@ -31,7 +31,7 @@ To install the project dependencies and set up the environment, follow these ste
 5. Run the following command
 6. ```bash
    python3 mozart.py
-7. You will get this [page](Image/mozart.png) and search any website and then you will get a text file which contains all the links on the page.
+7. You will get this [page](Images/mozart.png) and search any website and then you will get a text file which contains all the links on the page.
 8. Run the check.py and pass link to it.
 
 ## Output
