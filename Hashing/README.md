@@ -35,6 +35,9 @@ This diagram is represent the appoarch of this project.
 
 ![Implementation Setup](Images/Setup.png)
 
+## Steps to run
+
+To install the project dependencies and set up the environment, follow these steps:
 
 ## Output
 ![Packets](Images/Wireshark.png)
