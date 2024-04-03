@@ -16,7 +16,16 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 * Calculate the score of the URL. If it is high, then no action will be taken. If score is low then block the URL.
 
 # Steps to run 
-* Clone this [Mozart](https://github.com/htoukour/Mozart.git)
+* Clone this [Mozart](https://github.com/htoukour/Mozart.git).
+* Install all dependencies mentioned in the requirements.txt
+## Installation
+
+To install the project dependencies and set up the environment, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone [https://github.com/htoukour/Mozart.git](https://github.com/htoukour/Mozart.git)
 
 
 # Output
