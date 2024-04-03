@@ -22,4 +22,6 @@ This project used [Mozart browser](https://github.com/htoukour/Mozart.git), whic
 
 # Output
 
-![Cookie_flow_diagram](Images/Cookie_flow_diagram.png)
+![Mozart Preferred list](Images/Preferred_list.png)
+![Mozart Preferred list](Images/Mozart_popup.png)
+![Mozart Preferred list](Images/Mozart_popup2.png)
