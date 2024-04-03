@@ -25,7 +25,7 @@ To install the project dependencies and set up the environment, follow these ste
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/htoukour/Mozart.git](https://github.com/htoukour/Mozart.git)
+   git clone https://github.com/htoukour/Mozart.git
    pip3 install -r requirements.txt
 2. Replace Mozart.py file with [mozart.py](mozart.py) and download [check.py](check.py) in the Mozart folder.
 3. You must generate the API key from [apivoid](https://www.apivoid.com/api/url-reputation/).
