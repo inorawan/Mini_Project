@@ -10,7 +10,7 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 # Proposed Method
 This diagram is represent the appoarch of this project.
 
-![Image description](Images/Proposed_Method.jpg)
+![Image description](Images/Proposed_Method.png)
 
 
 * Web contents are hosted on the main server, along with their corresponding hash values stored there.
