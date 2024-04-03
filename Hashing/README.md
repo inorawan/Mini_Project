@@ -1,13 +1,13 @@
 # Ensuring Web Content Integrity using Hashing
-# Introduction
+## Introduction
 Hashing converts input data (message) into a fixed-size string of bytes, typically representing a shorter, unique identifier of the original data. This process uses a hash function, which takes an input (message) and produces a fixed-size string of characters. The most widely used standard hash functions to ensure integrity and authenticity include MD5 (Message Digest 5) and the SHA(Secure Hashing Algorithm) family (SHA-1, SHA-2, and SHA-3).
 In this digital era, Web services are based on a client-server architecture. The client-server architecture refers to a system that hosts, delivers, and manages most of the resources and services that the client requests.
 
 
 
-# Objective
+## Objective
 Maintaining the integrity of web content remains a critical challenge amidst evolving cybersecurity threats. We suggest a server-side approach to ensure the integrity of web content, addressing concerns arising from potential changes at the server. This approach leverages hash functions for content  integrity verification and geographically distributed servers to recover content in case of attack.
-# Proposed Method
+## Proposed Method
 This diagram is represent the appoarch of this project.
 
 ![Proposed Method](Images/Proposed_Method.png)
@@ -25,17 +25,17 @@ This diagram is represent the appoarch of this project.
 * The presence of multiple backup servers distributed across different geographical locations ensures redundancy and reliability in data retrieval, enhancing overall system resilience and availability.
 
 
-# Implementation
+## Implementation
 - Host two servers named serverA and serverB on the same system, each running on different ports.
 - Use the provided scripts to create [serverA](serverA.py) and [serverB](serverB.py).
 - Use the provided script [Client](Client.py) to create the client application.
 - Once both servers and the client are set up and running, the client can request resources from serverA.
 - Upon receiving a request, serverA calculates the SHA256 hash of the requested file.
-- ServerA proceeds with the further processing of the request based on the calculated hash.
+- ServerA proceeds with the further processing the request based on the calculated hash.
 
 ![Implementation Setup](Images/Setup.png)
 
 
-# Output
+## Output
 ![Packets](Images/Wireshark.png)
 
