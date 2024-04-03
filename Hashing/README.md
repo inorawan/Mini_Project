@@ -23,4 +23,9 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 - Host two servers named serverA and serverB on the same system, each running on different ports.
 - Use the provided scripts to create [serverA](serverA.py) and [serverB](serverB.py).
 - Use the provided script [Client](Client.py) to create the client application.
-- 
+- Once both servers and the client are set up and running, the client can request resources from serverA.
+- Upon receiving a request, serverA calculates the SHA256 hash of the requested file.
+- ServerA proceeds with the further processing of the request based on the calculated hash.
+
+# Result
+
