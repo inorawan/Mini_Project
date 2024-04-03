@@ -15,6 +15,8 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 * Extract all links and store them in a file.
 * Calculate the score of the URL. If it is high, then no action will be taken. If the score is low, then block the URL.
 
+This project used Mozart browser, which uses the PyQt5 Python library to develop a simple browser. In this folder, you can see [mozart.py](mozart.py), a modified version of the Mozart browser with the added URL extraction feature.
+
 
 ## Installation
 
