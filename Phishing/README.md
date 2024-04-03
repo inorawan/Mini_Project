@@ -13,7 +13,7 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 * User initiates the process by requesting a web page from a web server.
 * Client (User's Browser) retrieves and displays the web page content.
 * Extract all links and store them in a file.
-* 
+* Calculate the score of the URL. If it is high, then no action will be taken. If score is low then block the URL.
 
 
 
