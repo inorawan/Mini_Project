@@ -36,6 +36,6 @@ This diagram is represent the appoarch of this project.
 ![Implementation Setup](Images/Setup.png)
 
 
-# Result
+# Output
 ![Packets](Images/Wireshark.png)
 
