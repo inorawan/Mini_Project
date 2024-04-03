@@ -1,3 +1,0 @@
-# Malicious URL Detection
-# Introduction
-
