@@ -27,7 +27,7 @@ To install the project dependencies and set up the environment, follow these ste
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/htoukour/Mozart.git](https://github.com/htoukour/Mozart.git)
+   git clone https://github.com/htoukour/Mozart.git
    pip3 install -r requirements.txt
 2. Replace Mozart.py file with [main.py](main.py) and download [scratch.py](scrach.py) in the Mozart folder.
 3. Run the following command
