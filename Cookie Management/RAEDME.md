@@ -9,4 +9,11 @@ Add the cookie module to the simple browser to manage cookies easily. Whenever a
 
 # Implementation
 This diagram represent the approach of the project.
+
+
 ![Cookie_flow_diagram](Images/Cookie_flow_diagram.png)
+
+
+It asks users if they want to add the website to preferred list in the browser. 
+We use PyQt5 python library to develop a simple browser and added the cookie management in it.
+You can this file [
