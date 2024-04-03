@@ -4,7 +4,7 @@ Phishing is a cyber-attack where attackers try to trick individuals into reveali
 The phishing messages often contain links to fake websites that look legitimate but are designed to steal your information when you enter it. They may also contain attachments that, when opened, install malware on your device.
 
 ## Objective
-Implement phishing detection in a simple browser. It can detect malicious URLs based on risk scores using a reputation-based detector API from APIVoid.com.
+Implement phishing detection in a basic web browser application. Utilize a reputation-based detector API provided by APIVoid.com to assess the risk scores of URLs and identify potentially malicious ones.
 
 ## Implementation
 
