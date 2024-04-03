@@ -17,3 +17,6 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 * In the event of a mismatch, indicating potential data inconsistency, the backup server forwards the request to another backup server.
 * This process continues until a backup server with matching hash values is found or until all backup servers are exhausted.
 * The presence of multiple backup servers distributed across different geographical locations ensures redundancy and reliability in data retrieval, enhancing overall system resilience and availability.
+
+
+# Implementation
