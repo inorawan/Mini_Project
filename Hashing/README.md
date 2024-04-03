@@ -20,4 +20,4 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 
 
 # Implementation
-Hosted multiple server 
+Hosted two servers named serverA and serverB. And also created a client. Both servers and client are runing in a same syatem on different port. For creating serverA [serverA](Hashing/serverA.py)
