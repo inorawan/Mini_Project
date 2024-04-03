@@ -6,5 +6,14 @@ In this digital era, Web services are based on a client-server architecture. The
 # Objective
 Maintaining the integrity of web content remains a critical challenge amidst evolving cybersecurity threats. We suggest a server-side approach to ensure the integrity of web content, addressing concerns arising from potential changes at the server. This approach leverages hash functions for content  integrity verification and geographically distributed servers to recover content in case of attack.
 # Proposed Method
-* Web contents are hosted on the main server, and their hash values are stored there. When a client requests for a web page, the server first calculates the hash value of the content and matches it with the stored hash value. If matched, the server will send the web page to the client. If it is not matched then main server will send request to backup server and backup server also have the web contents and their hash value. Backup server will calculate hash value of the requested data. If it is matched, it send the web page to main server. If it is not matched then it send to other backup server.
-* There are many backup server which are located on different geographical location.
+
+* Web contents are hosted on the main server, along with their corresponding hash values stored there.
+* When a client requests a web page, the server initiates the process by calculating the hash value of the requested content.
+* The server then compares the calculated hash value with the stored hash value of the content.
+* If the hash values match, indicating the content integrity, the server proceeds to send the web page to the client.
+* However, if the hash values do not match, suggesting potential tampering or corruption, the main server sends a request to the backup server.
+* The backup server, which also contains the web contents and their hash values, receives the request and calculates the hash value of the requested data.
+* If the calculated hash value matches the stored hash value, indicating content integrity, the backup server sends the web page back to the main server.
+* In the event of a mismatch, indicating potential data inconsistency, the backup server forwards the request to another backup server.
+* This process continues until a backup server with matching hash values is found or until all backup servers are exhausted.
+* The presence of multiple backup servers distributed across different geographical locations ensures redundancy and reliability in data retrieval, enhancing overall system resilience and availability.
