@@ -8,7 +8,7 @@ cookies are used to enhance your browsing experience by allowing websites to rem
 Add the cookie module to the simple browser to manage cookies easily. Whenever a user visits a website that sends a cookie, the user can respond to it depending on the legitimacy of the website. However, this project aims to allow the user to add the website to the safe list so that the browser will not ask whether the user wants to accept the cookie or not.
 
 # Implementation
-This diagram represent the approach of the project.
+This diagram represents the project's approach.
 
 
 ![Cookie_flow_diagram](Images/Cookie_flow_diagram.png)
@@ -19,3 +19,7 @@ This diagram represent the approach of the project.
 * If the user presses no, the webpage is returned.
 
 This project used [Mozart browser](https://github.com/htoukour/Mozart.git), which uses the PyQt5 Python library to develop a simple browser. In this browser, we added cookie management to it. In this folder, you can see [main](main.py), which is a modified version of the Mozart browser with the added cookie management feature.
+
+# Output
+
+![Cookie_flow_diagram](Images/Cookie_flow_diagram.png)
