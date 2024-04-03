@@ -15,7 +15,8 @@ Implement phishing detection in a simple browser. It can detect malicious URLs b
 * Extract all links and store them in a file.
 * Calculate the score of the URL. If it is high, then no action will be taken. If score is low then block the URL.
 
-
+# Steps to run 
+* Clone this [Mozart](https://github.com/htoukour/Mozart.git)
 
 
 # Output
