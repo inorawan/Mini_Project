@@ -33,5 +33,8 @@ This diagram is represent the appoarch of this project.
 - Upon receiving a request, serverA calculates the SHA256 hash of the requested file.
 - ServerA proceeds with the further processing of the request based on the calculated hash.
 
+![Image description](Images/Setup.png)
+
+
 # Result
 
