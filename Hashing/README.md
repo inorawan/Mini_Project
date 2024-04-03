@@ -10,7 +10,7 @@ Maintaining the integrity of web content remains a critical challenge amidst evo
 # Proposed Method
 This diagram is represent the appoarch of this project.
 
-![Image description](Images/Proposed_Method.png)
+![Proposed Method](Images/Proposed_Method.png)
 
 
 * Web contents are hosted on the main server, along with their corresponding hash values stored there.
@@ -33,8 +33,9 @@ This diagram is represent the appoarch of this project.
 - Upon receiving a request, serverA calculates the SHA256 hash of the requested file.
 - ServerA proceeds with the further processing of the request based on the calculated hash.
 
-![Image description](Images/Setup.png)
+![Implementation Setup](Images/Setup.png)
 
 
 # Result
+![Packets](Images/Wireshark.png)
 
