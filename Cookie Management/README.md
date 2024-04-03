@@ -16,4 +16,4 @@ This diagram represent the approach of the project.
 
 It asks users if they want to add the website to preferred list in the browser. 
 We use PyQt5 python library to develop a simple browser and added the cookie management in it.
-You can this file [
+You can this [file](main.py)
