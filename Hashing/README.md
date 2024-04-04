@@ -32,7 +32,8 @@ This diagram is represent the appoarch of this project.
 - Once both servers and the client are set up and running, the client can request resources from serverA.
 - Upon receiving a request, serverA calculates the SHA256 hash of the requested file.
 - ServerA proceeds with the further processing the request based on the calculated hash.
-** Note:** ServerA is the main server and serverB is the backup server.
+
+**Note:** ServerA is the main server and serverB is the backup server.
 
 ![Implementation Setup](Images/Setup.png)
 
