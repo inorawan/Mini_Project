@@ -20,7 +20,7 @@ This diagram represents the project's approach.
 
 This project used [Mozart browser](https://github.com/htoukour/Mozart.git), which uses the PyQt5 Python library to develop a simple browser. In this browser, we added cookie management to it. In this folder, you can see [main](main.py), which is a modified version of the Mozart browser with the added cookie management feature.
 
-## Steps to run
+## Steps to run code
 
 To install the project dependencies and set up the environment, follow these steps:
 
