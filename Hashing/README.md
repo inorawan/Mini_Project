@@ -47,5 +47,7 @@ To install the project dependencies and set up the environment, follow these ste
 5. Request for the uploaded file from the client.
 ## Output
 
+![Packets](Images/hashing_result.png)
+
 ![Packets](Images/Wireshark.png)
 
