@@ -18,7 +18,7 @@ Implement phishing detection in a basic web browser application. Utilize a reput
 This project used Mozart browser, which uses the PyQt5 Python library to develop a simple browser. In this folder, you can see [mozart.py](mozart.py), a modified version of the Mozart browser with the added URL extraction feature.
 
 
-## Steps to run 
+## Steps to run code
 
 To install the project dependencies and set up the environment, follow these steps:
 
