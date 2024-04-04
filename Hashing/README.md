@@ -35,10 +35,15 @@ This diagram is represent the appoarch of this project.
 
 ![Implementation Setup](Images/Setup.png)
 
-## Steps to run
+## Steps to run code
 
 To install the project dependencies and set up the environment, follow these steps:
-
+1. Clone the repository
+2. Run serverB first and then serverA and then the client.
+3. Upload a file in the main server, serverA (use any of the sample files given and authentication code: 1234)
+4. Shift the mode of the serverA to listen to requests from the client
+5. Request for the uploaded file from the client.
 ## Output
+
 ![Packets](Images/Wireshark.png)
 
